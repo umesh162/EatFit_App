@@ -1,0 +1,6 @@
+{
+  "reactSnippets.settings.languageScopes": "javascript,javascriptreact",
+  "reactSnippets.settings.typescript": false,
+  "eslint.enable": false,
+  "gitlens.proxy": {}
+}
