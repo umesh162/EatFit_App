@@ -2,13 +2,13 @@ import {SafeAreaView, Text, View} from 'react-native';
 import React, {Component} from 'react';
 import HeaderImg from '../asset/svg/eatfit-logo-horizontal.svg';
 import {VectorIcon} from '../constant/VectorIcon';
-import {SCREENWIDTH} from '../constant/Responsive';
+import {getResHeight, SCREENWIDTH} from '../constant/Responsive';
 export class Navigation extends Component {
   render() {
     return (
       <View
         style={{
-          height: '25%',
+          height: getResHeight(60),
           flexDirection: 'row',
           alignItems: 'center',
           borderBottomWidth: 1,

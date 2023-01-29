@@ -9,12 +9,14 @@
     "test": "jest",
     "lint": "eslint .",
     "metro": "npx react-native start",
-    "podinstall": "cd ios && pod install && cd .."
+    "podinstall": "cd ios && pod install && cd ..",
+    "13": "react-native run-ios --simulator \"iPhone 13\" && npm run metro"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "17.0.2",
     "react-native": "0.67.3",
+    "react-native-material-menu": "^2.0.0",
     "react-native-svg": "^13.6.0",
     "react-native-svg-transformer": "^1.0.0",
     "react-native-vector-icons": "^9.2.0"
